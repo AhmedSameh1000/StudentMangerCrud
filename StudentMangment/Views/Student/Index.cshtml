@@ -1,0 +1,175 @@
+﻿
+@model IEnumerable<Student> 
+@{
+    ViewData["Title"] = "Index";
+    
+}
+
+<h1>All Students</h1> 
+<br />
+<a asp-controller="Student" asp-action="Create" class="btn btn-primary"> Create New Student </a> 
+<br />
+
+@if(Model.Count() > 0)
+{
+    <table class="table-hover table table-striped">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(S=>S.Name)</th>
+                <th>@Html.DisplayNameFor(S => S.DateOfBirth)</th>
+                <th>@Html.DisplayNameFor(S => S.Address)</th>
+                <th>@Html.DisplayNameFor(S => S.subjects)</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var student in Model)
+            {
+                <tr id="@student.Id">
+                    <td>@student.Name</td>
+                    <td>@student.DateOfBirth</td>
+                    <td>@student.Address</td>
+                    @if (student.subjects.Count() == 0)
+                    {
+                        <td>Not Found</td>
+                    }
+                    else{
+                     <td>
+                     @string.Join(" | ", student.subjects.Select(c => c.Name).ToList())
+                    </td>
+                    }
+                  
+
+                    <td><a as asp-action="Create" asp-route-id="@student.Id" class="btn btn-warning"><i class="fas fa-edit text-success"></i>Edit</a></td>
+                    <td> <button onclick="remove(@student.Id)" class="btn btn-danger"><i class="fas fa-trash-alt ">Delete</i></button></td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="mt-3 alert alert-warning">
+        <h3> There Is No Student</h3>
+    </div>
+}
+<script>
+
+    function remove(studentId) {
+
+
+        console.log(studentId)
+        const swalWithBootstrapButtons = Swal.mixin({
+            customClass: {
+                confirmButton: "btn btn-success ms-1",
+                cancelButton: "btn btn-danger"
+            },
+            buttonsStyling: false
+        });
+        swalWithBootstrapButtons.fire({
+            title: "Are you sure?",
+            text: "You won't be able to revert this!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonText: "Yes, delete it!",
+            cancelButtonText: "No, cancel!",
+            reverseButtons: true
+        }).then((result) => {
+            if (result.isConfirmed) {
+                $.ajax({
+                    url: `Delete/${studentId}`,
+                    method: 'Delete', // or 'POST', 'PUT', 'DELETE', etc. depending on your needs
+                    success: function (response) {
+                        $("#" + studentId).remove();
+
+                        // Handle successful response here
+                        console.log(response);
+                        console.log("Successs");
+                        swalWithBootstrapButtons.fire({
+                            title: "Deleted!",
+                            text: "Your file has been deleted.",
+                            icon: "success"
+                        });
+                    },
+                    error: function (xhr, status, error) {
+                        console.log("Error");
+                        console.log(status);
+
+                        // Handle error here
+                        console.error(xhr.responseText);
+                    }
+                });
+            } else if (
+                /* Read more about handling dismissals below */
+                result.dismiss === Swal.DismissReason.cancel
+            ) {
+                swalWithBootstrapButtons.fire({
+                    title: "Cancelled",
+                    text: "Your imaginary file is safe :)",
+                    icon: "error"
+                });
+            }
+        });
+
+    }
+</script>
+
+
+@* 
+
+
+     console.log(studentId)
+        const swalWithBootstrapButtons = Swal.mixin({
+            customClass: {
+                confirmButton: "btn btn-success ms-1",
+                cancelButton: "btn btn-danger"
+            },
+            buttonsStyling: false
+        });
+        swalWithBootstrapButtons.fire({
+            title: "Are you sure?",
+            text: "You won't be able to revert this!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonText: "Yes, delete it!",
+            cancelButtonText: "No, cancel!",
+            reverseButtons: true
+        }).then((result) => {
+            if (result.isConfirmed) {
+                $.ajax({
+                    url: `Delete/${studentId}`,
+                    method: 'Delete', // or 'POST', 'PUT', 'DELETE', etc. depending on your needs
+                    success: function (response) {
+                        $("#parent" + studentId).remove();
+                        // Handle successful response here
+                        console.log(response);
+                        console.log("Successs");
+                        swalWithBootstrapButtons.fire({
+                            title: "Deleted!",
+                            text: "Your file has been deleted.",
+                            icon: "success"
+                        });
+                    },
+                    error: function (xhr, status, error) {
+                        console.log("Error");
+                        console.log(status);
+
+                        // Handle error here
+                        console.error(xhr.responseText);
+                    }
+                });
+            } else if (
+                /* Read more about handling dismissals below */
+                result.dismiss === Swal.DismissReason.cancel
+            ) {
+                swalWithBootstrapButtons.fire({
+                    title: "Cancelled",
+                    text: "Your imaginary file is safe :)",
+                    icon: "error"
+                });
+            }
+        });
+*@
+

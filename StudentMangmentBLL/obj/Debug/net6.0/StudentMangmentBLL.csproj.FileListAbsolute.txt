@@ -1,0 +1,30 @@
+E:\StudentMangment\StudentMangment\StudentMangmentBLL\bin\Debug\net6.0\StudentMangmentBLL.deps.json
+E:\StudentMangment\StudentMangment\StudentMangmentBLL\bin\Debug\net6.0\StudentMangmentBLL.dll
+E:\StudentMangment\StudentMangment\StudentMangmentBLL\bin\Debug\net6.0\StudentMangmentBLL.pdb
+E:\StudentMangment\StudentMangment\StudentMangmentBLL\bin\Debug\net6.0\StudentMangmentDAL.dll
+E:\StudentMangment\StudentMangment\StudentMangmentBLL\bin\Debug\net6.0\StudentMangmentDAL.pdb
+E:\StudentMangment\StudentMangment\StudentMangmentBLL\obj\Debug\net6.0\StudentMangmentBLL.csproj.AssemblyReference.cache
+E:\StudentMangment\StudentMangment\StudentMangmentBLL\obj\Debug\net6.0\StudentMangmentBLL.GeneratedMSBuildEditorConfig.editorconfig
+E:\StudentMangment\StudentMangment\StudentMangmentBLL\obj\Debug\net6.0\StudentMangmentBLL.AssemblyInfoInputs.cache
+E:\StudentMangment\StudentMangment\StudentMangmentBLL\obj\Debug\net6.0\StudentMangmentBLL.AssemblyInfo.cs
+E:\StudentMangment\StudentMangment\StudentMangmentBLL\obj\Debug\net6.0\StudentMangmentBLL.csproj.CoreCompileInputs.cache
+E:\StudentMangment\StudentMangment\StudentMangmentBLL\obj\Debug\net6.0\StudentM.6D88DF9B.Up2Date
+E:\StudentMangment\StudentMangment\StudentMangmentBLL\obj\Debug\net6.0\StudentMangmentBLL.dll
+E:\StudentMangment\StudentMangment\StudentMangmentBLL\obj\Debug\net6.0\refint\StudentMangmentBLL.dll
+E:\StudentMangment\StudentMangment\StudentMangmentBLL\obj\Debug\net6.0\StudentMangmentBLL.pdb
+E:\StudentMangment\StudentMangment\StudentMangmentBLL\obj\Debug\net6.0\ref\StudentMangmentBLL.dll
+C:\Users\Ahmed Sameh\Downloads\New folder (2)\StudentMangment\StudentMangmentBLL\bin\Debug\net6.0\StudentMangmentBLL.deps.json
+C:\Users\Ahmed Sameh\Downloads\New folder (2)\StudentMangment\StudentMangmentBLL\bin\Debug\net6.0\StudentMangmentBLL.dll
+C:\Users\Ahmed Sameh\Downloads\New folder (2)\StudentMangment\StudentMangmentBLL\bin\Debug\net6.0\StudentMangmentBLL.pdb
+C:\Users\Ahmed Sameh\Downloads\New folder (2)\StudentMangment\StudentMangmentBLL\bin\Debug\net6.0\StudentMangmentDAL.dll
+C:\Users\Ahmed Sameh\Downloads\New folder (2)\StudentMangment\StudentMangmentBLL\bin\Debug\net6.0\StudentMangmentDAL.pdb
+C:\Users\Ahmed Sameh\Downloads\New folder (2)\StudentMangment\StudentMangmentBLL\obj\Debug\net6.0\StudentMangmentBLL.csproj.AssemblyReference.cache
+C:\Users\Ahmed Sameh\Downloads\New folder (2)\StudentMangment\StudentMangmentBLL\obj\Debug\net6.0\StudentMangmentBLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed Sameh\Downloads\New folder (2)\StudentMangment\StudentMangmentBLL\obj\Debug\net6.0\StudentMangmentBLL.AssemblyInfoInputs.cache
+C:\Users\Ahmed Sameh\Downloads\New folder (2)\StudentMangment\StudentMangmentBLL\obj\Debug\net6.0\StudentMangmentBLL.AssemblyInfo.cs
+C:\Users\Ahmed Sameh\Downloads\New folder (2)\StudentMangment\StudentMangmentBLL\obj\Debug\net6.0\StudentMangmentBLL.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Sameh\Downloads\New folder (2)\StudentMangment\StudentMangmentBLL\obj\Debug\net6.0\StudentMangmentBLL.csproj.CopyComplete
+C:\Users\Ahmed Sameh\Downloads\New folder (2)\StudentMangment\StudentMangmentBLL\obj\Debug\net6.0\StudentMangmentBLL.dll
+C:\Users\Ahmed Sameh\Downloads\New folder (2)\StudentMangment\StudentMangmentBLL\obj\Debug\net6.0\refint\StudentMangmentBLL.dll
+C:\Users\Ahmed Sameh\Downloads\New folder (2)\StudentMangment\StudentMangmentBLL\obj\Debug\net6.0\StudentMangmentBLL.pdb
+C:\Users\Ahmed Sameh\Downloads\New folder (2)\StudentMangment\StudentMangmentBLL\obj\Debug\net6.0\ref\StudentMangmentBLL.dll

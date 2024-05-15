@@ -1,0 +1,28 @@
+E:\StudentMangment\StudentMangment\StudentMangmentDAL\bin\Debug\net6.0\StudentMangmentDAL.deps.json
+E:\StudentMangment\StudentMangment\StudentMangmentDAL\bin\Debug\net6.0\StudentMangmentDAL.runtimeconfig.json
+E:\StudentMangment\StudentMangment\StudentMangmentDAL\bin\Debug\net6.0\StudentMangmentDAL.dll
+E:\StudentMangment\StudentMangment\StudentMangmentDAL\bin\Debug\net6.0\StudentMangmentDAL.pdb
+E:\StudentMangment\StudentMangment\StudentMangmentDAL\obj\Debug\net6.0\StudentMangmentDAL.csproj.AssemblyReference.cache
+E:\StudentMangment\StudentMangment\StudentMangmentDAL\obj\Debug\net6.0\StudentMangmentDAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\StudentMangment\StudentMangment\StudentMangmentDAL\obj\Debug\net6.0\StudentMangmentDAL.AssemblyInfoInputs.cache
+E:\StudentMangment\StudentMangment\StudentMangmentDAL\obj\Debug\net6.0\StudentMangmentDAL.AssemblyInfo.cs
+E:\StudentMangment\StudentMangment\StudentMangmentDAL\obj\Debug\net6.0\StudentMangmentDAL.csproj.CoreCompileInputs.cache
+E:\StudentMangment\StudentMangment\StudentMangmentDAL\obj\Debug\net6.0\StudentMangmentDAL.dll
+E:\StudentMangment\StudentMangment\StudentMangmentDAL\obj\Debug\net6.0\refint\StudentMangmentDAL.dll
+E:\StudentMangment\StudentMangment\StudentMangmentDAL\obj\Debug\net6.0\StudentMangmentDAL.pdb
+E:\StudentMangment\StudentMangment\StudentMangmentDAL\obj\Debug\net6.0\StudentMangmentDAL.genruntimeconfig.cache
+E:\StudentMangment\StudentMangment\StudentMangmentDAL\obj\Debug\net6.0\ref\StudentMangmentDAL.dll
+C:\Users\Ahmed Sameh\Downloads\New folder (2)\StudentMangment\StudentMangmentDAL\bin\Debug\net6.0\StudentMangmentDAL.deps.json
+C:\Users\Ahmed Sameh\Downloads\New folder (2)\StudentMangment\StudentMangmentDAL\bin\Debug\net6.0\StudentMangmentDAL.runtimeconfig.json
+C:\Users\Ahmed Sameh\Downloads\New folder (2)\StudentMangment\StudentMangmentDAL\bin\Debug\net6.0\StudentMangmentDAL.dll
+C:\Users\Ahmed Sameh\Downloads\New folder (2)\StudentMangment\StudentMangmentDAL\bin\Debug\net6.0\StudentMangmentDAL.pdb
+C:\Users\Ahmed Sameh\Downloads\New folder (2)\StudentMangment\StudentMangmentDAL\obj\Debug\net6.0\StudentMangmentDAL.csproj.AssemblyReference.cache
+C:\Users\Ahmed Sameh\Downloads\New folder (2)\StudentMangment\StudentMangmentDAL\obj\Debug\net6.0\StudentMangmentDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed Sameh\Downloads\New folder (2)\StudentMangment\StudentMangmentDAL\obj\Debug\net6.0\StudentMangmentDAL.AssemblyInfoInputs.cache
+C:\Users\Ahmed Sameh\Downloads\New folder (2)\StudentMangment\StudentMangmentDAL\obj\Debug\net6.0\StudentMangmentDAL.AssemblyInfo.cs
+C:\Users\Ahmed Sameh\Downloads\New folder (2)\StudentMangment\StudentMangmentDAL\obj\Debug\net6.0\StudentMangmentDAL.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Sameh\Downloads\New folder (2)\StudentMangment\StudentMangmentDAL\obj\Debug\net6.0\StudentMangmentDAL.dll
+C:\Users\Ahmed Sameh\Downloads\New folder (2)\StudentMangment\StudentMangmentDAL\obj\Debug\net6.0\refint\StudentMangmentDAL.dll
+C:\Users\Ahmed Sameh\Downloads\New folder (2)\StudentMangment\StudentMangmentDAL\obj\Debug\net6.0\StudentMangmentDAL.pdb
+C:\Users\Ahmed Sameh\Downloads\New folder (2)\StudentMangment\StudentMangmentDAL\obj\Debug\net6.0\StudentMangmentDAL.genruntimeconfig.cache
+C:\Users\Ahmed Sameh\Downloads\New folder (2)\StudentMangment\StudentMangmentDAL\obj\Debug\net6.0\ref\StudentMangmentDAL.dll
